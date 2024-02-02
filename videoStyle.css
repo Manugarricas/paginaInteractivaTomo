@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footerLogo {
+    display: flex;
+}
+
+.logoImg {
+    width: 60px;
+}
+
+.img-link {
+    width: 50px;
+    height: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -3%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    margin: 20px;
+}
+
+p {
+    font-size: large;
+}
+
+/* @media query for phones */
+@media only screen and (max-width: 767px) {
+    iframe {
+        width: 100%;
+    }
+
+    p {
+        margin: 20px;
+    }
+
+    .icons {
+        margin-top: -60px;
+    }
+}
